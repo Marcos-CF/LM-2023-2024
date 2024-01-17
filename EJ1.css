@@ -1,0 +1,71 @@
+*
+{
+  margin: 0;
+}
+
+body>header
+{
+  margin: 0;
+  height: 10vh;
+  width: 100vw;
+  padding: 1em;
+  border: 2px solid black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-image: linear-gradient(to right, white , grey);
+}
+
+article
+{
+  margin-bottom: -5px;
+}
+
+nav
+{
+  height: 2.5vh;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Vina Sans';
+}
+
+li
+{
+  list-style: none;
+  border: 1px solid black;
+  width: 20vw;
+  height: 3vh;
+  text-align: center;
+  align-items: center;
+  font-family: 'Oswald';
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+li:visited
+{
+  list-style: none;
+}
+
+footer
+{
+  height: 10vh;
+  width: 100vw;
+  padding: 1em;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, white , grey);
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Oswald';
+}
+
+
+
